@@ -77,7 +77,7 @@ const CONFIG = {
     // Add your own music URL after getting proper licenses
     music: {
         enabled: true,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dqthjdzgm/video/upload/v1739335128/beabadoobee_-_Glue_Song_Official_Music_Video_tdmlm6.mp3", // Music streaming URL
         startText: "🎵 Play Beabadobee",        // Button text to start music
         stopText: "🔇 Stop Playing Beabadobee ☹️",         // Button text to stop music
